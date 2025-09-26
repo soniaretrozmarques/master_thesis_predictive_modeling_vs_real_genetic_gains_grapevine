@@ -1,0 +1,36 @@
+# Comparison between Predicted and Observed Genetic Gains of Polyclonal Material from Ancient Grapevine Varieties
+
+**Author**: Sónia Cristina Carvalho Retroz Moreira Marques  
+**Master’s in Agronomic Engineering** — Instituto Superior de Agronomia, University of Lisbon  
+**Supervisor**: Prof. Elsa Maria Félix Gonçalves  
+
+---
+
+## Project Overview
+
+This repository contains materials related to my Master’s dissertation, which focuses on the comparison between **predicted and observed genetic gains** for the trait *yield* in **polyclonal selection of ancient grapevine varieties** (*Vitis vinifera*).  
+
+The study applied **linear mixed models** to multi-year yield data from different grapevine cultivars, with the following objectives:
+
+- Estimate the genotypic variance component  
+- Calculate broad-sense heritability  
+- Predict genetic gains from polyclonal selection  
+- Compare predicted gains with actual observed performance in subsequent plantations  
+
+The results confirm the existence of **intra-varietal genetic variability** for yield, and show that most of the **observed gains fall within the predicted range**.
+
+---
+
+## Repository Structure
+
+```text
+/
+├── data/                  # Raw and processed datasets (if allowed to share)
+├── scripts/               # R scripts for statistical analysis and modeling
+│   ├── model_fitting.R    # fitting mixed models
+│   ├── genetic_gains.R    # predicted vs observed gains calculations
+│   └── visualization.R    # generation of figures and plots
+├── results/               # Results: tables, figures, summaries
+├── doc/                   # Supplementary documents (reports, annexes)
+├── README.md              # This file
+└── LICENSE                # License (MIT, CC-BY, etc.)
